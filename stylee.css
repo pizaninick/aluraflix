@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CSS RESET >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+.sofadi-one-regular {
+   font-family: "Sofadi One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+.Flex {
+    display: flex;
+    justify-content:space-between;
+ }
+
+ .Flex2 {
+  display: flex;
+  align-items: center;
+ }
+
+ .Flex22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+ }
+
+ .Flex3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+
+#Inicio {
+    margin: 0%;
+    height: 130px;
+    background-color: #fd66dc;
+}
+
+ header h1 {
+    color: #ffff;
+    font-size: 2.8em;
+    margin-left: 20px;
+ }
+
+ #titulo {
+    background-color:  #fceedf;
+    padding: 20px 20px;
+}
+ #titulo h2 {
+    font-size: 3em;
+ }
+
+
+#Catalogo {
+    background-color: #fceedf;
+}
+
+ #Catalogo p {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    margin-left: 30px;
+ }
+
+ #Catalogo iframe {
+    width: 1000px;
+    height: 563px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    margin-top: 20px;
+ }
+
+ footer {
+    margin: 0%;
+    height: 100px;
+    background-color: #fd66dc;
+ }
